@@ -1,11 +1,7 @@
-version: "3.3"
-
 services:
 
   site:
-    image: docsy/cdf-best-practices
-    build:
-      context: .
+    image: hugomods/hugo:dart-sass-go-git-0.147.9
     command: server
     ports:
       - "1313:1313"
