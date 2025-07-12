@@ -73,6 +73,15 @@ id = "UA-00000000-0"
     [languages.es.params]
       description = "Prácticas Recomendadas de CD Foundation para la Entrega Continua"
 
+  [languages.id]
+    contentDir = "content/id"
+    title = "Tata Laksana Terbaik"
+    languageName = "Bahasa Indonesia"
+    # Weight used for sorting.
+    weight = 3
+    [languages.id.params]
+      description = "Tata Laksana Terbaik CD Foundation untuk pengiriman berkelanjutan"
+
 # Languages sectiopn MUST come before this!
 # Declare and configure Docsy theme.
 [module]
